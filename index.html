@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Focus Timer</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+        <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+        <main>
+                <div class="timer">
+                        <div class="time">
+                                <span class="minutes">25</span><span class="column">:</span><span
+                                        class="seconds">00</span>
+                        </div>
+                        <div class="buttons">
+                                <button class="buttonPlay" aria-label="Start Timer" title="Start">
+                                        <i class="fa-solid fa-play"></i>
+                                </button>
+                                <button class="buttonPause hide" aria-label="Pause Timer" title="Pause">
+                                        <i class="fa-solid fa-pause"></i>
+                                </button>
+                                <button class="buttonStop" aria-label="Stop Timer" title="Stop">
+                                        <i class="fa-solid fa-stop"></i>
+                                </button>
+                                <button class="buttonPlus" aria-label="Add 5 Minutes" title="Add 5 Minutes">
+                                        <i class="fa-solid fa-plus"></i>
+                                </button>
+                                <button class="buttonMinus" aria-label="Subtract 5 Minutes" title="Subtract 5 Minutes">
+                                        <i class="fa-solid fa-minus"></i>
+                                </button>
+                        </div>
+                </div>
+                <div class="cards">
+                        <div class="card forest">
+                                <button class="cardButton" aria-label="Forest Ambience" title="Forest">
+                                        <i class="fa-solid fa-tree"></i>
+                                </button>
+                                <input class="volume" type="range" min="0.0" max="1.0" step="0.01" value="0.5"
+                                        aria-label="Forest volume" />
+                        </div>
+                        <div class="card rain">
+                                <button class="cardButton" aria-label="Rain Ambience" title="Rain">
+                                        <i class="fa-solid fa-cloud-showers-heavy"></i>
+                                </button>
+                                <input class="volume" type="range" min="0.0" max="1.0" step="0.01" value="0.5"
+                                        aria-label="Rain volume" />
+                        </div>
+                        <div class="card fire">
+                                <button class="cardButton" aria-label="Fireplace Ambience" title="Fireplace">
+                                        <i class="fa-solid fa-fire"></i>
+                                </button>
+                                <input class="volume" type="range" min="0.0" max="1.0" step="0.01" value="0.5"
+                                        aria-label="Fireplace volume" />
+                        </div>
+                        <div class="card coffee-shop">
+                                <button class="cardButton" aria-label="Coffee Shop Ambience" title="Coffee Shop">
+                                        <i class="fa-solid fa-mug-saucer"></i>
+                                </button>
+                                <input class="volume" type="range" min="0.0" max="1.0" step="0.01" value="0.5"
+                                        aria-label="Coffee Shop volume" />
+                        </div>
+                </div>
+        </main>
+        <footer>
+                <div class="themes">
+                        <button class="lightTheme" aria-label="Switch to Light Theme" title="Switch to Light Theme">
+                                <i class="fa-solid fa-sun"></i>
+                        </button>
+                        <button class="darkTheme hide" aria-label="Switch to Dark Theme" title="Switch to Dark Theme">
+                                <i class="fa-solid fa-moon"></i>
+                        </button>
+                </div>
+        </footer>
+        <script src="js/index.js" type="module"></script>
+</body>
+
+</html>
