@@ -14,10 +14,10 @@ export default function () {
 		return audioCtx
 	}
 
-	const forestAudio = new Audio('./audio/forest.wav')
-	const coffeeAudio = new Audio('./audio/coffee.wav')
-	const rainAudio = new Audio('./audio/rain.wav')
-	const fireAudio = new Audio('./audio/fire.wav')
+	const forestAudio = new Audio('https://cdn.hackclub.com/01a03e8a-27f1-7693-b40a-1fe3a11ac236/forest.wav')
+	const coffeeAudio = new Audio('https://cdn.hackclub.com/01a03e8a-2167-7a10-80a7-62902136ed75/coffee.wav')
+	const rainAudio = new Audio('https://cdn.hackclub.com/01a03e8a-2cc3-775a-bd18-d724eb645e26/rain.wav')
+	const fireAudio = new Audio('https://cdn.hackclub.com/01a03e8a-24de-7c28-8614-54abdcaf003a/fire.wav')
 
 	forestAudio.loop = true
 	coffeeAudio.loop = true
