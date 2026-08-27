@@ -22,10 +22,10 @@ export default function () {
 		return audio
 	}
 
-	const forestAudio = createAudio('./audio/forest.mp3')
-	const coffeeAudio = createAudio('./audio/coffee.mp3')
-	const rainAudio = createAudio('./audio/rain.mp3')
-	const fireAudio = createAudio('./audio/fire.mp3')
+	const forestAudio = createAudio('https://cdn.hackclub.com/01a043cc-4b5b-7223-b8f2-d19db0902424/forest.mp3')
+	const coffeeAudio = createAudio('https://cdn.hackclub.com/01a043cc-459c-79ab-a7f3-f825153efef8/coffee.mp3')
+	const rainAudio = createAudio('https://cdn.hackclub.com/01a043cc-4dd0-7856-afa7-cbce7130e063/rain.mp3')
+	const fireAudio = createAudio('https://cdn.hackclub.com/01a043cc-481d-75bd-a9df-2ed4d11a0dc6/fire.mp3')
 
 	forestAudio.loop = true
 	coffeeAudio.loop = true
