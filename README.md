@@ -2,7 +2,9 @@
 
 A clean and simple focus timer with relaxing ambient sounds to help you stay productive.
 
-## [Live Demo](https://rajankckc.github.io/Focus/)
+### [Live Demo](https://rajankckc.github.io/Focus/)
+
+### AI Usage: style.css and used guides to make this project.
 
 ## Features
 
