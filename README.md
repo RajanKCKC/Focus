@@ -16,8 +16,39 @@ A clean and simple focus timer with relaxing ambient sounds to help you stay pro
 
 ## How to Run
 
-1. Open `index.html` in any modern web browser or start a local HTTP server:
-    ```bash
-        python -m http.server 3000
-    ```
-2. Navigate to `http://localhost:3000` in your browser.
+No installation or build steps required.
+
+1. Clone the repository:
+
+```bash
+
+git clone https://github.com/RajanKCKC/Focus.git
+
+cd Focus
+
+```
+
+2. Open `index.html` directly in your browser, or start up a simple local server:
+
+```bash
+
+python -m http.server 3000
+
+```
+
+
+3. Visit `http://localhost:3000` in your browser.
+
+---
+
+## How It Works
+
+* **Audio Engine**: Utilizes native HTML5 audio elements to allow seamless background sound mixing without external dependencies.
+* **State & Storage**: Simple browser `localStorage` tracks theme preferences across sessions.
+
+---
+
+## Credits & AI Usage
+
+* **AI Assistance**: AI was used to assist in crafting `style.css` and organizing project guidelines.
+* **Audio & Icons**: Ambient audio loops and UI icons sourced open-source.
